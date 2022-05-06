@@ -44,11 +44,13 @@ body{
 .btn:focus,
 .input:focus{
     outline: none;
+    transition: transform 0.1s ease;
 }
 .search.active .input{
-    width: 210px;
+    width: 200px;
 }
 .search.active .btn{
     transform: translateX(198px);
+    
 }
 
